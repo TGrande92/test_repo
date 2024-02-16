@@ -1,0 +1,30 @@
+{
+    "simulation": {
+      "aircraft": "Rascal110",
+      "start_datetime": "2024-02-15T10:00:00Z",
+      "end_datetime": "2024-02-15T11:00:00Z",
+      "simulation_rate": 1,
+      "initial_conditions": {
+        "latitude_deg": 47.6275,
+        "longitude_deg": -122.3325,
+        "altitude_ft": 1000,
+        "heading_deg": 90,
+        "airspeed_kts": 110,
+        "pitch_deg": 5,
+        "roll_deg": 0
+      },
+      "environment": {
+        "wind_speed_kts": 10,
+        "wind_direction_deg": 180,
+        "temperature_offset_c": 0,
+        "pressure_hpa": 1013.25,
+        "humidity_percent": 50
+      },
+      "control_settings": {
+        "aileron": 0,
+        "elevator": 0,
+        "rudder": 0,
+        "throttle": 1
+      }
+    }
+  }
